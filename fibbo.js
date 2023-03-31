@@ -12,7 +12,7 @@ const fibbonacci = (n) => {
 };
 
 // Params for the fibbonacci function, generates the first 3, 5, 7 and 10 numbers of the sequence
-const params1 = [0, 1, 2, 3];
+const params1 = [0, 1, 2];
 const params2 = [0, 1, 2, 3, 4];
 const params3 = [0, 1, 2, 3, 4, 5, 6];
 const params4 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
@@ -107,3 +107,13 @@ const layout = {
 };
 
 plot(data, layout);
+
+console.log("Tiempo para los primeros 3 numeros de la serie: ")
+console.table(time1);
+console.log("Tiempo para los primeros 5 numeros de la serie: ")
+console.table(time2);
+console.log("Tiempo para los primeros 7 numeros de la serie: ")
+console.table(time3);
+console.log("Tiempo para los primeros 10 numeros de la serie: ")
+console.table(time4);
+
