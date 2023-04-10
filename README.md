@@ -15,6 +15,12 @@ El segundo archivo es el 'fibboIterativo.js' con:
 hecho con:
 [<img src="https://nodejs.org/static/images/logo.svg" alt="Logo de Node.js" width="80"/>](https://nodejs.org/)
 
+## **Gráficas**
+### Fibo Iterativo
+![fiboite](Images/FibboIterativo.png)
+### Fibo Recursivo
+![fibore](Images/FibboRecursivo.png)
+
 ## Integrantes
 - Nicolas Urbano (2128837-2711)
 - Juan David Garces (2043292-2711)
