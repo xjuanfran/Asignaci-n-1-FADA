@@ -4,12 +4,18 @@ import { plot } from "nodeplotlib";
  * @param {number} n
  * @return {number}
  * @description
- * This function calculates the n number of the fibbonacci sequence
+ * This function calculates the n number of the fibbonacci sequence using an iterative approach
  */
 const fibbonacci = (n) => {
-  if (n <= 1) return n;
-  return fibbonacci(n - 1) + fibbonacci(n - 2);
+    if (n <= 1) return n;
+
+    const fib = [0,1];
+    for (let i = 2; i <= n; i++) {
+        fib[i] = fib[i-1] + fib[i-2];
+    }
+    return fib[n];
 };
+
 
 // Params for the fibbonacci function, generates the first 3, 5, 7 and 10 numbers of the sequence
 const params1 = [0, 1, 2];
@@ -96,7 +102,7 @@ const data = [
 const layout = {
   responsive: true,
   title:
-    "Tiempo de ejecucion de la funcion fibbonacci (implentacion recursiva).",
+    "Tiempo de ejecucion de la funcion fibbonacci (implentacion iterativa).",
   xaxis: {
     title: "n - Parametros de la funcion",
     dtick: 1,
