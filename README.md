@@ -1,6 +1,6 @@
 # Asignacion-1-FADA
 
-Para ejecutar el programa, se debe instalar los necesario con el comando:
+Para ejecutar el programa, se debe instalar lo necesario con el comando:
 
 ### `npm install`
 
